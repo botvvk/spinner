@@ -1,6 +1,6 @@
 # BallAtomSpinner
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
+Demo :- https://spinner-4c410.web.app/
 
 ## Development server
 
