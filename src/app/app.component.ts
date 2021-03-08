@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ball-atom-spinner';
+  loading
+
+  showSpinner() {
+    this.loading = true
+    setTimeout(() => {
+      this.loading = false
+    }, 5000)
+  }
 }

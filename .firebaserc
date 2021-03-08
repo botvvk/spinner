@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "spinner-4c410": {
+      "hosting": {
+        "ball-atom-spinner": [
+          "spinner-4c410"
+        ]
+      }
+    }
+  }
+}

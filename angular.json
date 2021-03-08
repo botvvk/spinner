@@ -117,8 +117,16 @@
               "devServerTarget": "ball-atom-spinner:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "ball-atom-spinner"
+    }
+  },
+  "defaultProject": "ball-atom-spinner",
+  "cli": {
+    "analytics": false
+  }
 }

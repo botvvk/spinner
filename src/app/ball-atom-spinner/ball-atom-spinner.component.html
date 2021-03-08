@@ -1,0 +1,10 @@
+<div [@fadeIn]="'in'" *ngIf="true" class="overlay" [style.background-color]="'rgba(0,0,0,0.8)'" [style.z-index]="99999"
+    [style.position]=" 'fixed' ">
+    <div *ngIf="!template" [class]="'la-ball-atom la-2x'" [style.color]="'#fff'">
+        <div *ngFor="let index of divArray"></div>
+    </div>
+    <!-- <div *ngIf="template" [innerHTML]="template | safeHtml"></div> -->
+    <div class="loading-text" [style.z-index]="99999">
+        <div style="color: white;">Loading...</div>
+    </div>
+</div>
